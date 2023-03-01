@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>password-generator</title>
+    <link rel="stylesheet" href="pass.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <section>
+    <div id="hero">
+        <h1 id="heading">Generate a <br><span id="green">random password</span></h1>
+        <h3>Never use an insecure password again.</h3>
+        <button class="btn" id="big-button"><ion-icon name="flash"></ion-icon>Generate passwords</button>
+        <Label for="length-input">Length: </Label><input type="number" value="10" id="length-input" maxlength="2" max="25" min="8">
+        <hr>
+        <div id="passwords">
+            <button id = "password0" class="password-sugg"><ion-icon name="ellipsis-horizontal"></ion-icon></button>
+            <button id = "password1" class="password-sugg"><ion-icon name="ellipsis-horizontal"></ion-icon></button>
+            <button id = "password2" class="password-sugg"><ion-icon name="ellipsis-horizontal"></ion-icon></button>
+            <button id = "password3" class="password-sugg"><ion-icon name="ellipsis-horizontal"></ion-icon></button>
+        </div>
+    </div>
+    <script src="pass.js" ></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </section>
+</body>
+</html>

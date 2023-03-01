@@ -1,0 +1,119 @@
+body, *{
+    font-family:  'Inter', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background: #2F3E53;
+    display: flex;
+    align-items: center;
+}
+#hero{
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+
+}
+#heading{
+    width: 354px;
+    height: 80px;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 118px 144px 10px 52px;
+    line-height: 40px;
+}
+#green{
+    color: #10B981;
+}
+#hero > h3{
+    width: 372px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+    margin: 0px 126px 51px 52px; 
+}
+#big-button{
+    background-color: #10B981;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    width: 223px;
+    height: 42px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin: 0px 71px 35px 52px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+}
+#big-button:hover{
+    box-shadow: 0px 1px 5px #55F991;
+}
+label{
+    width: 64px;
+    height: 15px;
+    top: 299px;
+    left: 346px;
+    position: absolute;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+#length-input{
+    position: absolute;
+    background: #273549; 
+    top: 299px;
+    left: 414px;
+    width: 84px;
+    height: 21px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+hr{   
+    width: 446px;
+    height: 0px;
+    border: 1px solid #2F3E53;
+}
+#passwords{
+    display: flex;
+    flex-wrap: wrap;
+    height: 186px;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px 27px;
+    align-content: center;
+    border: none;
+}
+.password-sugg{
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#passwords ion-icon{
+    font-size: larger;
+    color: #3F516B;
+    
+}
