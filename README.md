@@ -30,7 +30,7 @@ No dependencies or build step needed — just open `index.html`.
 
 ## Live Demo
 
-> Coming soon — deploying to Netlify
+🔗 [mysimplepasswordgenerator.netlify.app](https://mysimplepasswordgenerator.netlify.app/)
 
 ---
 
