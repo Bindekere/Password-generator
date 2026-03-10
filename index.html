@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="pass.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div id="hero">
+            <h1 id="heading">Generate a <br><span id="green">random password</span></h1>
+            <h3>Never use an insecure password again.</h3>
+            <button class="btn" id="big-button">
+                <ion-icon name="flash"></ion-icon> Generate passwords
+            </button>
+            <label for="length-input">Length: </label>
+            <input type="number" value="10" id="length-input" max="25" min="8">
+            <hr>
+            <div id="passwords">
+                <button id="password0" class="password-sugg"><ion-icon name="ellipsis-horizontal"></ion-icon></button>
+                <button id="password1" class="password-sugg"><ion-icon name="ellipsis-horizontal"></ion-icon></button>
+                <button id="password2" class="password-sugg"><ion-icon name="ellipsis-horizontal"></ion-icon></button>
+                <button id="password3" class="password-sugg"><ion-icon name="ellipsis-horizontal"></ion-icon></button>
+            </div>
+            <p id="copy-feedback" style="display:none; color: #4ade80; margin-top: 0.5rem; font-size: 0.9rem;">✓ Copied to clipboard!</p>
+        </div>
+    </section>
+    <script src="pass.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
